@@ -33855,7 +33855,7 @@ aP:function(){return new B.wn(this.c,null,C.q)}}
 B.wn.prototype={
 b_:function(){var t,s,r=this
 r.bp()
-t=G.ea(null,r.d,0,null,1,null,r)
+t=G.ea(null,r.d,0,null,1,1,r)
 t.bq(new B.IK(r))
 t.cs()
 s=t.c_$
@@ -33915,8 +33915,8 @@ case 4:r.x=null
 case 3:return P.Q(null,s)}})
 return P.R($async$jX,s)}}
 B.IK.prototype={
-$1:function(a){if(a===C.C){C.pu.d1("vibrate",P.aX(["duration",500,"pattern",H.b([0,1000,500,1000,500,1000],u.t),"repeat",-1,"amplitude",-1,"intensities",C.oG],u.N,u.K),!1,u.H)
-this.a.fd("dora")}},
+$1:function(a){if(a===C.C&&this.a.e.y<=0){this.a.fd("dora")
+C.pu.d1("vibrate",P.aX(["duration",500,"pattern",H.b([0,1000,500,1000,500,1000],u.t),"repeat",-1,"amplitude",-1,"intensities",C.oG],u.N,u.K),!1,u.H)}},
 $S:21}
 B.IL.prototype={
 $0:function(){this.a.aO(new B.IJ())},
