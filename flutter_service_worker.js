@@ -2,7 +2,7 @@
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
 "/assets/AssetManifest.json": "ff6a6a52433d38d59d15264bd1ca42c5",
-"/assets/assets/audios/dora.mp3": "533b12c501203f7dce6e94b6de2dcb94",
+"/assets/assets/audios/dora.mp3": "e4c7f8bc2612d4d7c585b8eb464009bb",
 "/assets/assets/audios/silent.mp3": "a8815c6b82ce58f54463779e60ba8434",
 "/assets/assets/fonts/DSEG14Classic-Regular.woff": "a16ffec28180c2047ada961eb2519f26",
 "/assets/FontManifest.json": "b818e7a7c62cb64d2745a78fa7a084ba",
@@ -12,7 +12,7 @@ const RESOURCES = {
 "/icons/Icon-192.png": "b7d0a8f68fa2e3837beacdf9ac75b941",
 "/icons/Icon-512.png": "c83a0d22e0c1537db90862650e598c4d",
 "/index.html": "cf897d2a7f4012c9924bde4349354992",
-"/main.dart.js": "b1ccf65205e649884a08032a7bd3c36c",
+"/main.dart.js": "90316f58f6cd72411b613c63e5a64100",
 "/manifest.json": "cddb195e4fe24096d28881c2c0caa0d4"
 };
 
