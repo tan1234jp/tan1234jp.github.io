@@ -18,7 +18,7 @@ const RESOURCES = {
 "/icons/safari-pinned-tab.svg": "5066ed007a8096b626ad9a718d5485ba",
 "/index.html": "8e11d1aa3740bb75ae024997efa67aca",
 "/main.dart.js": "44efe44267ad00ba46a26886c19a1f3d",
-"/manifest.json": "4bd0e51b623aae9adcd5c081b4abbc65",
+"/manifest.json": "5ae9a6d7de9e99f8ea07fe2697a27b12",
 "/mstile-150x150.png": "fdbcf3b0fb8116e9184c38af51f34576"
 };
 
