@@ -17,7 +17,7 @@ const RESOURCES = {
 "/icons/apple-touch-icon.png": "3361e9ca37e3c0ec611b312123c287e2",
 "/icons/safari-pinned-tab.svg": "5066ed007a8096b626ad9a718d5485ba",
 "/index.html": "8e11d1aa3740bb75ae024997efa67aca",
-"/main.dart.js": "44efe44267ad00ba46a26886c19a1f3d",
+"/main.dart.js": "bcb705b90087de97934cbb54b796e2d3",
 "/manifest.json": "5ae9a6d7de9e99f8ea07fe2697a27b12",
 "/mstile-150x150.png": "fdbcf3b0fb8116e9184c38af51f34576"
 };
