@@ -7,13 +7,21 @@ const RESOURCES = {
 "/assets/assets/fonts/DSEG14Classic-Regular.woff": "a16ffec28180c2047ada961eb2519f26",
 "/assets/FontManifest.json": "b818e7a7c62cb64d2745a78fa7a084ba",
 "/assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16",
-"/assets/LICENSE": "d13717e1fa0d9a9cc9957218d771cf65",
+"/assets/LICENSE": "f9bbc1e907017043f408e62fbfbb7081",
 "/assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
+"/browserconfig.xml": "68c9044fa4a08749efb85bb2a4edaede",
+"/favicon-16x16.png": "d58860da10ca2847b3e92af62d52a613",
+"/favicon-32x32.png": "3f827c26a576faa5c9f86e07571e8993",
+"/icons/android-chrome-192x192.png": "46a6725cdbce619c5d2194bfdcac8c20",
+"/icons/android-chrome-512x512.png": "feb77d84ea9587b55c0036020f02d475",
+"/icons/apple-touch-icon.png": "3361e9ca37e3c0ec611b312123c287e2",
 "/icons/Icon-192.png": "b7d0a8f68fa2e3837beacdf9ac75b941",
 "/icons/Icon-512.png": "c83a0d22e0c1537db90862650e598c4d",
-"/index.html": "cf897d2a7f4012c9924bde4349354992",
-"/main.dart.js": "90316f58f6cd72411b613c63e5a64100",
-"/manifest.json": "cddb195e4fe24096d28881c2c0caa0d4"
+"/icons/safari-pinned-tab.svg": "57de9c58fbe16fec3c4b09d948aa588a",
+"/index.html": "8e11d1aa3740bb75ae024997efa67aca",
+"/main.dart.js": "2ccde90904663144facc165ac3d95770",
+"/manifest.json": "5ae9a6d7de9e99f8ea07fe2697a27b12",
+"/mstile-150x150.png": "fdbcf3b0fb8116e9184c38af51f34576"
 };
 
 self.addEventListener('activate', function (event) {
@@ -35,9 +43,7 @@ self.addEventListener('fetch', function (event) {
         if (response) {
           return response;
         }
-        return fetch(event.request, {
-          credentials: 'include'
-        });
+        return fetch(event.request);
       })
   );
 });
